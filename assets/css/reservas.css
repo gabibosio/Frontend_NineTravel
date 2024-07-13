@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.card-reserva{
+    margin-top: 2rem;
+    padding: 1rem;
+    height: 15rem;
+    border: #ddd solid 1px;
+    border-radius: 10px;
+
+    ul{
+        padding: 1rem;
+    }
+    li{
+        list-style: none;
+    }
+    button{
+        margin: 0 0.5rem !important;
+    }
+}
+.alert{
+    margin: 0 !important;
+    margin-top: 15px !important;
+    max-width: 375px !important;
+
+    input{
+        margin-bottom: 1rem;
+        max-width: 100%;
+        width: 100%;
+    }
+}
